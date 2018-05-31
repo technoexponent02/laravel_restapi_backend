@@ -1,0 +1,7 @@
+Sl. No.,Name,mobile_no,Email,Business Category Id,Website,Address,City Id,State Id,Coutry Id,PIN / ZIP,Is Active?
+1,Directory 1,9999999999,test@test.com,1,http://www.google.co.in/,"Plot No. E2-4, Block-GP, Sector-V",1,1,0,777777,Y
+2,Directory 2,9999999999,test@test.com,2,http://www.google.co.in/,"Plot No. E2-4, Block-GP, Sector-3",2,9,0,777777,Y
+3,Directory 3,9999999999,test@test.com,1,http://www.google.co.in/,"Plot No. E2-4, Block-GP, Sector-V",1,1,0,777777,Y
+4,Directory 4,9999999999,test@test.com,2,http://www.google.co.in/,"Plot No. E2-4, Block-GP, Sector-2",2,10,0,777777,Y
+5,ihostpitality,9898989898,ihostpitality@gmail.com,8,http://dev4.technoxponent.com/ihospitality/public/,"Webel More, Salt Lake City, Kolkata",0,0,0,,Y
+6,ihostpitality,9898989898,pabitra@technoexponent.com,15,http://dev4.technoxponent.com/ihospitality/public/,Address*,0,0,0,,N

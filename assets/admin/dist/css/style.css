@@ -1,0 +1,79 @@
+.no-padding{padding:0 !important;margin:0 !important;}
+.btn-file {
+    position: relative;
+    overflow: hidden;
+}
+.btn-file input[type=file] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    font-size: 100px;
+    text-align: right;
+    filter: alpha(opacity=0);
+    opacity: 0;
+    outline: none;
+    background: white;
+    cursor: inherit;
+    display: block;
+}
+.file-preview-image {
+	height: 100px;
+	max-width: 120px;
+	float: left;
+	vertical-align: middle;
+}
+/******* uploader *******/
+#sel_img {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 75%;
+}
+#sel_img li {
+    margin: 3px 3px 3px 0;
+    padding: 1px;
+    float: left;
+    width: 130px;
+    height: 100px;
+    font-size: 4em;
+    text-align: center;
+}
+.ui-state-default .close {
+    font-size: 12px;
+    top: 0;
+    right: 0;
+    padding: 1px 4px 2px 4px;
+    border-radius: 0 0 0 4px;
+    background: #fff;
+    color: #F00 !important;
+    opacity: 0.8;
+}
+.paginationDiv {display: block; text-align: right; padding: 0 12px;}
+
+.list_table_img {max-height: 100px; max-width: 250px;}
+.banner_img_edit {max-height: 250px; max-width: 500px;}
+
+.td-btn{float: left !important;margin-left: 8px;}
+
+.help-block{
+	color:#FF0000;
+}
+.assgnlist {
+    padding: 0 0 8px;
+    border-top: 1px solid #ccc;
+    text-align: center;
+    margin: 0 0 8px;
+}
+.assgnlist .assname {
+    font-size: 14px;
+    line-height: normal;
+    color: #383838;
+    font-weight: normal;
+    display: block;
+    margin: 0 0 6px;
+}
+.assgnlist:first-child {
+    border-top: 0 none;
+}

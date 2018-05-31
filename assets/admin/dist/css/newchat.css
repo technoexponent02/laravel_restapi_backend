@@ -1,0 +1,540 @@
+@charset "utf-8";
+/* Message */
+
+.newchatuc .parentprofilebox {
+	background: #f6f7f9 none repeat scroll 0 0;
+	border: 1px solid #e7e7e7;
+	display: table;
+	position: relative;
+	table-layout: fixed;
+	width: 100%;
+}
+.newchatuc .active2 {
+	background: #bbd212;
+}
+.newchatuc .active2 > a {
+	color: #fff!important;
+}
+.newchatuc .active2 .status {
+	color: #fff!important;
+}
+.newchatuc .active2 .status .fa {
+	color: #fff!important;
+}
+.newchatuc .lftpart {
+	background: #bbd212;
+}
+.newchatuc .parentprofilebox.message_section {
+	padding: 0 !important;
+	width: 97%;
+}
+.newchatuc .parentprofilebox.message_section h2 {
+	text-align: center;
+	padding: 12px 0;
+	font-weight: 500;
+}
+.newchatuc .messgSection {
+	margin: 0 auto;
+	position: relative;
+}
+.newchatuc .msgHdr {
+	background: #bbd212; 
+	position: relative;
+}
+
+.newchatuc .msgHdr .lftpart {
+	width: 30%;
+	float: left;
+	padding: 5px 10px;
+}
+.newchatuc .msgHdr .lftpart .msgTtl {
+	color: #000;
+	font-size: 16px;
+	font-weight: 600;
+	display: block;
+	line-height: 20px;
+	margin-bottom: 4px;
+}
+.newchatuc .msgHdr .lftpart .inbxAllRd {
+	line-height: 22px;
+}
+.newchatuc .inbxStat {
+	float: left;
+	display: block;
+}
+.newchatuc .inbxStat a {	
+	display: inline-block;
+	line-height: 38px;
+	border-radius: 2px;
+	color: #FFF;
+	font-size: 22px;
+	font-weight: 400;
+	padding: 0 12px;
+	text-decoration: none;
+}
+.newchatuc .inbxStat p {
+	display: inline-block;
+	line-height: 38px;
+	border-radius: 2px;
+	color: #FFF;
+	font-size: 18px;
+	font-weight: 400;
+	padding: 0 12px;
+	text-decoration: none;
+}
+.newchatuc .mrkAll {
+	float: right;
+	display: block;
+	font-size: 12px;
+	font-weight: 600;
+}
+.newchatuc .mrkAll a {
+	color: #FFF;
+}
+.newchatuc .chatMmbrSec {
+	position: relative;
+	min-height: 400px;
+}
+
+.newchatuc .memberPnl {
+	border-right: 1px solid #bbd212;
+	float: left;
+	height: 100%;
+	padding-bottom: 57px;
+	width: 329px;
+}
+.newchatuc .chatSec {
+/*	float: left;*/
+/*	width: 64%;*/
+}
+.newchatuc .mmbrPnlSrch {
+	background: #f3f3f1;
+	padding: 10px;
+	border-bottom: 1px #EEE solid;
+	margin-left: 11px;
+	margin-right: 9px;
+}
+.newchatuc #chtMmbrlst {
+	padding: 0 14px;
+}
+.newchatuc .mmbrSrchfld {
+	display: block;
+	position: relative;
+}
+.newchatuc .mmbrSrchfld input[type="text"] {
+	border: 1px #d2d2d2 solid;
+	font-size: 12px;
+	height: 32px;
+}
+.newchatuc .mmbrSrchfld button {
+	position: absolute;
+	top: 0;
+	right: 0;
+	background: #E4E4E4;
+	color: #444;
+	padding: 0;
+	height: 32px;
+	width: 32px;
+	line-height: 32px;
+	border-bottom: 2px #D4D4D4 solid;
+}
+.newchatuc .mmbrSrchfld button:hover {
+	background: #ff8a00;
+	color: #FFF;
+	border-color: #e47e06;
+}
+
+.newchatuc .chatMmbrList li {
+	border-bottom: 1px #e8e8e8 solid;
+	position: relative;
+}
+.newchatuc .chatMmbrList li a {
+	display: block;
+	padding: 4px 4px 4px 64px;
+	height: 58px;
+	position: relative;
+	text-decoration: none;
+	color: #333;
+}
+.newchatuc .chatMmbrList li a:hover {
+	background: #bbd212;
+	color: #FFF;
+}
+.newchatuc .chatMmbrList li .user {
+	display: block;
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	left: 4px;
+	top: 4px;
+}
+.newchatuc .chatMmbrList li .user img {
+	width: 50px;
+	height: 50px;
+	border-radius: 35px;
+}
+.newchatuc .chatMmbrList li:last-child {
+	border: none;
+}
+.newchatuc .chatMmbrList li .nameTm {
+	display: block;
+	margin-bottom: 6px;
+}
+.newchatuc .chatMmbrList li .nameTm .name {
+	display: inline-block;
+	vertical-align: top;
+	text-align: left;
+	width: 65%;
+	font-size: 13px;
+	font-weight: 600;
+	margin-right: -4px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	-webkit-text-overflow: ellipsis;
+	-moz-text-overflow: ellipsis;
+	-ms-text-overflow: ellipsis;
+	-o-text-overflow: ellipsis;
+	white-space: nowrap;
+	-webkit-white-space: nowrap;
+	-moz-white-space: nowrap;
+	-ms-white-space: nowrap;
+	-o-white-space: nowrap;
+}
+.newchatuc .chatMmbrList li .nameTm .time {
+	display: inline-block;
+	vertical-align: top;
+	text-align: right;
+	width: 35%;
+	font-size: 11px;
+	color: #666;
+}
+.newchatuc .chatMmbrList li a:hover .time {
+	color: #FFF;
+}
+.chatMmbrList li .nameTm .name .online {
+	color: #75d700;
+}
+.newchatuc .chatMmbrList li .nameTm .name .offline {
+	color: #CCC;
+}
+.newchatuc .chatMmbrList li .nameTm i.fa {
+	font-size: 10px;
+	width: 16px;
+}
+.newchatuc .chatMmbrList li .status {
+	display: block;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	-webkit-text-overflow: ellipsis;
+	-moz-text-overflow: ellipsis;
+	-ms-text-overflow: ellipsis;
+	-o-text-overflow: ellipsis;
+	white-space: nowrap;
+	-webkit-white-space: nowrap;
+	-moz-white-space: nowrap;
+	-ms-white-space: nowrap;
+	-o-white-space: nowrap;
+	color: #b3b3b5;
+	font-size: 12px;
+}
+.newchatuc .chatMmbrList li.unread .status {
+	font-weight: 700;
+	color: #b3b3b5;
+}
+.newchatuc .chatMmbrList li .status i.fa {
+	font-size: 16px;
+	width: 20px;
+	color: #575755;
+}
+.newchatuc .unreadMsg {
+	width: 16px;
+	height: 12px;
+	margin-right: 4px;
+	display: inline-block;
+	background: url(../images/msg-icon.png) no-repeat 0 0;
+	vertical-align: -2px;
+}
+.newchatuc .chatMmbrList li a:hover .unreadMsg {
+	background-position: 0 100%;
+}
+.newchatuc .chatMmbrList li a:hover .time, 
+.newchatuc .chatMmbrList li a:hover .status, 
+.newchatuc .chatMmbrList li.unread a:hover .status {
+	color: #FFF;
+}
+.newchatuc .chatMsgCont {
+	padding: 20px 14px 20px 20px;
+}
+.newchatuc .loadErlrMsg {
+	display: block;
+	margin-bottom: 5px;
+}
+.newchatuc .loadErlrMsg a {
+	display: block;
+	padding: 6px 10px;
+	text-align: center;
+	text-decoration: none;
+	background: #f6f6f6;
+	color: #bbd212;
+	font-size: 14px;
+	font-weight: 600;
+}
+.newchatuc .loadErlrMsg a:hover {
+	background: #F1F1F1;
+}
+.newchatuc .chatListArea {
+	height: 557px;
+	overflow: auto;
+}
+.newchatuc .chatListArea ul {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+.newchatuc .chatListArea ul li {
+	padding:10px 4px 7px 60px;
+	position: relative;
+	min-height: 40px;
+	margin-bottom: 19px;
+	background: #fff;
+	margin-right: 75px;
+	border-radius: 6px;
+}
+.newchatuc .chatListArea li .user {
+    display: block;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    background: url(../images/user.png) no-repeat;
+    background-size: cover;
+    top: 10px;
+    left: 10px;
+}
+.newchatuc .chatListArea ul li.he {
+    background: #eceaeb !important;
+    padding: 10px 60px 7px 4px;
+    margin: 0 10px 19px 75px;
+    text-align: right;
+}
+.newchatuc .chatListArea .he .user {
+    left: inherit;
+    right: 10px;
+}
+.newchatuc .chatListArea li .user img {
+	width: 40px;
+	height: 40px;
+	border-radius: 35px;
+	background: #DDD;
+}
+
+.newchatuc .chatListArea li .name {
+	display: block;
+	font-size: 14px;
+	font-weight: 600;
+	color: #bbd212;
+}
+.newchatuc .chatListArea .he .name {
+	display: block;
+	font-size: 14px;
+	font-weight: 600;
+	color: #bbd212;	
+	text-align: right;
+}
+.newchatuc .chatListArea li .time {
+	font-size: 12px;
+	color: #AAA;
+	position: absolute;
+	right: 6px;
+	top: 0;
+	padding: 2px 10px;
+}
+.newchatuc .chatListArea .he p {
+	font-size: 12px;
+	line-height: 15px;
+	color: #777;
+	text-align: right;
+}
+.newchatuc .chatListArea .he .time {
+	font-size: 12px;
+	color: #AAA;
+	position: absolute;
+	left: 6px;
+	top: 0;
+	text-align: left;
+}
+.newchatuc .chatListArea li p {
+	font-size: 12px;
+	line-height: 15px;
+	color: #777;
+}
+.newchatuc .chatSbmtform {
+	background: #bbd212;
+	padding: 20px 7px 11px;
+	margin: 0 6px;
+}
+.newchatuc .chatSbmtform textarea {
+	border: none;
+	height: 60px;
+	font-size: 12px;
+}
+.newchatuc .chatSec .attachFld {
+	display: inline-block;
+	vertical-align: middle;
+	width: 65%;
+	font-size: 14px;
+	color: #fff;
+}
+.newchatuc .chatSec .chatSubmit {
+	display: inline-block;
+	vertical-align: middle;
+	width: 35%;
+	text-align: right;
+}
+.newchatuc .attachFileBtn {
+	font-size: 14px;
+	background: #fff;
+	height: 32px;
+	line-height: 32px;
+	padding: 0 16px;
+	border-radius: 2px;
+	display: inline-block;
+	border-bottom: 2px #eaeaea solid;
+	color: #888;
+}
+.newchatuc .attachFileBtn:hover {
+	color: #000;
+}
+.newchatuc .attachFileBtn input[type="file"] {
+	display: none;
+}
+.newchatuc .chatSec .chatSubmit button:hover {
+	background: #ed8000;
+	border-color: #d07101;
+}
+.newchatuc .postBtnDiv {
+	float: right;
+}
+.newchatuc .browseAll {
+	max-width: 1070px;
+	margin: 0 auto 30px;
+}
+.newchatuc .search_btn {
+	background: none !important;
+	height: 32px !important;
+	color: #000 !important;
+	border: none !important;
+	line-height: 33px!important;
+}
+.newchatuc .smallButton {
+	background: #8d9f06!important;
+	color: #FFF;
+	font-size: 14px;
+	border: none;
+	padding: 0 25px;
+	cursor: pointer;
+	height: 36px;
+	font-weight: 600;
+	text-transform: uppercase;	
+	text-decoration: none;
+	line-height: 36px;
+	border-bottom: 3px #000124 solid;
+	border-radius: 4px;
+}
+.newchatuc #frndlist {
+	display: none;
+	float: left;
+	margin: 1px 5px;
+	width: 45px;
+}
+.newchatuc #frndlist .fa {
+	background: #f98411 none repeat scroll 0 0;
+	color: #fff;
+	display: none;
+	font-size: 19px;
+	font-weight: 200;
+	line-height: 23px;
+	padding: 7px 0;
+	text-align: center;	
+}
+.newchatuc #frndlist .fa:hover {
+	background: #e17000 none repeat scroll 0 0;
+	text-decoration: none;
+}
+.newchatuc .modal-content {
+	background-color: #fefefe;
+	margin: auto;
+	padding: 20px;
+	border: 1px solid #888;
+	width: 27%;
+	position: relative;
+	box-shadow: 2px 7px 17px #000;
+}
+.newchatuc .formbox.formbox2 {
+	margin: 11px 0;
+}
+.newchatuc .modal-content p {
+	color: red;
+}
+.newchatuc .me_img {
+	width: 20%;
+}
+.newchatuc .me_img_he {
+	width: 20%;
+}
+
+
+.newchatuc {
+    width: 840px;
+    background-color:#212121;
+    margin: 4rem auto;
+}
+
+/* width */
+.newchatuc .chatListArea:-moz-scrollbar,
+.newchatuc .chatListArea::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+.newchatuc .chatListArea:-moz-scrollbar-track,
+.newchatuc .chatListArea::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+}
+ 
+/* Handle */
+.newchatuc .chatListArea:-moz-scrollbar-thumb,
+.newchatuc .chatListArea::-webkit-scrollbar-thumb {
+    background: red; 
+    border-radius: 10px;
+}
+.accpetbtncht {
+    background-color: #2ea0da;
+    border-radius: 13px;
+    color: #fff;
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    padding: 5px 14px;
+    text-align: center;
+    border: 0 none;
+    margin: 5px 0 0;
+}
+.accpetbtncht:hover {
+	cursor:pointer;
+	text-decoration: none;
+	opacity: 0.8;
+}
+.foramountuc p {
+	display:inline-block;
+	margin-right:10px;
+}
+.amountch {
+    display: inline-block;
+    width: auto !important;
+    max-width: 80px;
+}
+.text-white {
+	color:#ffffff;
+}
